@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity"
+    android:paddingTop="200dp"
+    android:background="@drawable/home">
+
+    <ListView
+        android:id="@+id/election_list_view"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_margin="20dp"
+        android:clipToPadding="false"
+        android:divider="@android:color/background_light"
+        android:dividerHeight="0.5dp"
+        android:foregroundGravity="center_horizontal"
+        android:foregroundTint="#ffffff"
+        android:paddingStart="8dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="40dp"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>
