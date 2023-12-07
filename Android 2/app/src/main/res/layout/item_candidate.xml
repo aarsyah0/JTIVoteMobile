@@ -1,0 +1,56 @@
+<!-- res/layout/item_candidate.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+<androidx.cardview.widget.CardView
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:id="@+id/cardViewCandidate">
+    <ImageView
+        android:id="@+id/imageViewCandidate"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textViewCandidateName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Candidate Name"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/textViewCandidateDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Candidate Details"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp" />
+
+    <TextView
+        android:id="@+id/textViewCandidateVotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 Votes"
+        android:textSize="12sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="140dp" />
+
+    <Button
+        android:id="@+id/buttonVote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vote"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="160dp" />
+
+</androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
